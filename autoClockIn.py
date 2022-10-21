@@ -51,7 +51,7 @@ sleep(1)
 
 
 # 体温填报
-browser.find_element(By.XPATH,'//*[@id="pageBox"]/div[2]/div/table/tbody/tr[12]/td[2]/div/div[1]/div/div/div/input').send_keys("37.3°C以下")
+browser.find_element(By.XPATH,'//*[@id="pageBox"]/div[2]/div/table/tbody/tr[12]/td[2]/div/div[1]/div/div/div/input').click()
 
 
 
