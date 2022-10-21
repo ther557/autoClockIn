@@ -37,7 +37,7 @@ sleep(8)
 
 # 是否在校，默认在校
 browser.find_element(By.XPATH,'//*[@id="pageBox"]/div[2]/div/table/tbody/tr[4]/td[2]/div/div[1]/div/div/div/input').click()
-browser.find_element(By.XPATH,'/html/body/div[4]/div[1]/div[1]/ul/li[1]').click()
+browser.find_element(By.XPATH,'/html/body/div[3]/div[1]/div[1]/ul/li[1]').click()
 sleep(1)
 
 # 在校状态填报
