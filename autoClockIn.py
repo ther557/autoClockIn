@@ -29,11 +29,11 @@ sleep(1)
 browser.find_element(By.XPATH,'/html/body/div[1]/div[3]/div[1]/div[2]/div[1]/div/a').click()
 
 # sleep时间可调，根据你的网速决定
-sleep(6)
-browser.find_element(By.XPATH,'//*[@id="launch"]/div[1]/div/div/div[3]').click()
 sleep(1)
-browser.find_element(By.XPATH,'/html/body/div[1]/div[2]/div/div[2]/div/div[2]/ul/li[2]/a/div[1]/div[2]/div[1]/span').click()
-sleep(8)
+browser.find_element(By.XPATH,'//*[@id="launch"]/div[1]/div/div/div[4]').click()
+sleep(1)
+browser.find_element(By.XPATH,'/html/body/div[1]/div[2]/div/div[3]/div/div[2]/ul/li[2]/a/div[1]/div[2]/div[1]/span').click()
+sleep(6)
 
 # 是否在校，默认在校
 browser.find_element(By.XPATH,'//*[@id="pageBox"]/div[2]/div/table/tbody/tr[4]/td[2]/div/div[1]/div/div/div/input').click()
