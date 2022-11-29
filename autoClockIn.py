@@ -90,7 +90,7 @@ else :
     sleep(1)
     browser.find_element(By.XPATH,'//*[@id="pageBox"]/div[2]/div/table/tbody/tr[5]/td[2]/div/div[1]/div[2]/div/ul[2]/li[4]').click()
 
-    # 详细地理位置填写，默认润杰公寓
+    # 详细地理位置填写，填写家庭住址
     browser.find_element(By.XPATH,'//*[@id="pageBox"]/div[2]/div/table/tbody/tr[5]/td[2]/div/div[1]/div[2]/div/div[3]/textarea').send_keys("")
     browser.find_element(By.XPATH,'//*[@id="pageBox"]/div[2]/div/table/tbody/tr[5]/td[2]/div/div[1]/div[2]/span/button[2]').click()
 
